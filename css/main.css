@@ -45,10 +45,92 @@ font-family: monospace;
 
 .main-content {
   width: 100vw;
-  height: 87vh;
+  height: 50vh;
+  background-image: url("https://picsum.photos/id/10/1000/1000");
+  background-repeat: no-repeat;
+
+display: flex;
+flex-direction: column-reverse;
+justify-content:center;
+align-items: center;
+
 }
 
-.main-content img {
+
+.
+}
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
   width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.titulo-listas{
+  text-align: center;
 
 }
+
+.social{
+  width: 100%;
+  height: 150px;
+  background-color:powderblue ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links{
+  width: 100%;
+  height: 400px;
+  background-color: peru;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
