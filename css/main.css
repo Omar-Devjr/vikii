@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   }
+
+
   
   header{
     width: 100vw;
@@ -17,14 +19,14 @@
   header h1{
     color: whitesmoke;
     font-size: 3rem;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
   }
-
-nav{
-  width: 100vw;
-  height: 8vh;
+  
+  nav{
+    width: 100vw;
+    height: 8vh;
   background-color: black;
-
+  
 }
 
 nav ul{
@@ -48,8 +50,8 @@ nav ul li {
 
 nav a {
   color:gold;
-text-decoration: none;
-font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+  font-family: 'Bebas Neue';
 }
 
 .main-content {
@@ -58,11 +60,11 @@ font-family: 'Bebas Neue', cursive;
   background-image: url("../img/9.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
-display: flex;
-flex-direction: column-reverse;
-justify-content:center;
-align-items: center;
+  
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content:center;
+  align-items: center;
 }
 
 .tittle-list{
@@ -70,30 +72,48 @@ align-items: center;
   justify-content:center;
   align-items:center;
   width: 100%;
-  height: 50px;
+  height: 100px;
   font-family: "Bebas Neue";
+  font-size: 2rem;
 }
 
-.responsive {
+.gallery-card{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.card {
   padding: 0 6px;
   float: left;
   width: 24.99999%;
-  height: 500px; 
+  height: auto; 
+  column-gap: 2px;
+ 
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
+div.card:hover {
+  outline: 1px solid #777;
 }
 
-div.gallery img {
+div.card-content img {
   width: 100%;
   height: 250px;
 }
 
-div. {
+div.card-content p {
   padding: 15px;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
 
 .social{
   width: 100%;
@@ -103,6 +123,7 @@ div. {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 2rem;
 }
 
 .footer-links{
@@ -113,6 +134,8 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+gap: 2px
+;
 
 }
 
